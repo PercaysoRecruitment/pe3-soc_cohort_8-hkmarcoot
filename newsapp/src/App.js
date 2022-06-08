@@ -1,5 +1,6 @@
 import "./styles.css";
 
+import TopBar from "./TopBar";
 import SearchSection from "./SearchSection";
 import HistorySection from "./HistorySection";
 import ResultSection from "./ResultSection";
@@ -7,7 +8,7 @@ import ResultSection from "./ResultSection";
 function App() {
   return (
     <div className="App">
-      <h1>Newsapp</h1>
+      <TopBar />
       <SearchSection />
       <HistorySection />
       <ResultSection />
