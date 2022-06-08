@@ -9,6 +9,8 @@
 5. It has unit tests
 6. CSS Styling
 
+-------------------Original Description-------------------
+
 ## Brief
 
 Create a website that gets news from the GNews api:
