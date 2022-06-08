@@ -1,6 +1,6 @@
 # Percayso Programming Exercise 3
 
-## Plan
+## Planning
 
 1. It is mobile responsive
 2. It has search area
@@ -9,7 +9,7 @@
 5. It has unit tests
 6. CSS Styling
 
--------------------Original Description-------------------
+### ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓Original Description↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
 ## Brief
 
