@@ -178,7 +178,7 @@ input[type="text"] {
 input[type="submit"] {
   width: 20%;
   height: 45px;
-  border-radius: 0px 8px 8px 0px;
+  /* border-radius: 0px 8px 8px 0px; */
   border: none;
   background-color: cornflowerblue;
   font-size: 18px;
