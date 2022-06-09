@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-async function getNewsData2(topic) {
+async function getNewsData(topic) {
   const response = await fetch(
     `https://gnews.io/api/v4/search?q=${topic}&token=${API_KEY}`
   );
@@ -19,19 +19,29 @@ export default function HistorySection({
 }) {
   console.log(topics);
 
-  const [topic2, setTopic2] = useState("");
+  const [topic, setTopic] = useState("");
+  //---------------------Note----------------------//
+  //I encounter a problem here that the topic history
+  //cannot react at the first click, the result can only be loaded
+  //after the second click.
+  //
+  //I tried to use setTimeout to let the data have enough time to be saved
+  //in useState and run the fetch, but it is not success.
+  //
+  //I will come back and try when I have enough time before the deadline.
+  //-----------------Note End---------------------//
 
   async function onClick(block) {
-    setTopic2(block);
-    console.log(topic2);
-    handleSubmit(topic2);
+    setTopic(block);
+    console.log(topic);
+    handleSubmit(topic);
   }
 
   async function handleSubmit(topic) {
     // e.preventDefault();
     // const topicInput = e.target[0];
 
-    const news = await getNewsData2(topic.block);
+    const news = await getNewsData(topic.block);
 
     if (news.Response === "False") return;
     else {
