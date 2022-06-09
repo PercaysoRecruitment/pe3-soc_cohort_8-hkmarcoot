@@ -7,7 +7,9 @@ async function getNewsData(topic) {
     `https://gnews.io/api/v4/search?q=${topic}&token=${API_KEY}`
   );
   const data = await response.json();
-  return data;
+  if (!data.errors) {
+    return data;
+  }
 }
 
 export default function SearchSection({
