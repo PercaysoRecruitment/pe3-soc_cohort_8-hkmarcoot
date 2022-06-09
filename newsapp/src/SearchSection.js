@@ -46,7 +46,7 @@ export default function SearchSection({
           placeholder="News Topic Here"
           onChange={(e) => updateTopic(e)}
         ></input>
-        <input type="submit" value="Search"></input>
+        <input className="search-btn" type="submit" value="Search"></input>
       </form>
     </div>
   );

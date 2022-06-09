@@ -42,17 +42,19 @@ function App() {
   return (
     <div className="App">
       <div className="constrain">
-        <TopBar />
-        <SearchSection
-          updateCurrentNews={updateCurrentNews}
-          addTopicToHistory={addTopicToHistory}
-        />
-        <HistorySection
-          topics={topics}
-          updateCurrentNews={updateCurrentNews}
-          removeTopicFromHistory={removeTopicFromHistory}
-        />
-        {currentNews && <ResultSection news={currentNews} />}
+        <div className="inner-constrain">
+          <TopBar />
+          <SearchSection
+            updateCurrentNews={updateCurrentNews}
+            addTopicToHistory={addTopicToHistory}
+          />
+          <HistorySection
+            topics={topics}
+            updateCurrentNews={updateCurrentNews}
+            removeTopicFromHistory={removeTopicFromHistory}
+          />
+          {currentNews && <ResultSection news={currentNews} />}
+        </div>
       </div>
     </div>
   );

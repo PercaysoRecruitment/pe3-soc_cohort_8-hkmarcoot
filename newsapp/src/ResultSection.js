@@ -9,11 +9,8 @@ export default function ResultSection({ news }) {
                 <h1 className="index-number">
                   {index + 1 === 10 ? "10" : "0" + (index + 1)}
                 </h1>
-                <h2>
-                  <span className="result-title underline">TITLE</span>:{" "}
-                  {block.title}
-                </h2>
-                <h3 className="margin-right-40 top-margin-20">
+                <h2 className="result-title">{block.title}</h2>
+                <h3 className="margin-left-15 margin-right-40 top-margin-20">
                   {block.content}
                 </h3>
                 <a
@@ -25,8 +22,10 @@ export default function ResultSection({ news }) {
                   Learn more...
                 </a>
               </div>
-              <div className="result-img-container">
-                <img src={block.image} alt={block.title} />
+              <div className="result-img-outter-container">
+                <div className="result-img-container">
+                  <img src={block.image} alt={block.title} />
+                </div>
               </div>
             </div>
           );
