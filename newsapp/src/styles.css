@@ -135,6 +135,7 @@ body {
   min-width: 100%;
   min-height: 100vh;
   font-family: "Hellix";
+  background: linear-gradient(8deg, #dbe8fa 0%, #ffffff 99%);
 }
 
 .constrain {
@@ -150,6 +151,10 @@ h3 {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
+}
+
+h6 {
+  font-size: 18px;
 }
 
 .header-less-weight {
@@ -225,9 +230,41 @@ input[type="submit"] {
   font-weight: 500;
 }
 
+.history-section {
+  margin: 30px 30px;
+  /* background-color: red; */
+  height: auto;
+}
+
+.history-block {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.history-clickable:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.history-item {
+  background-color: cornflowerblue;
+  padding: 3px 8px;
+}
+
+.remove-btn {
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  background-color: rgb(130, 167, 235);
+  font-weight: 600;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+  color: white;
+}
 /* Reuseable Items */
 .text-centered {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .tbmargin-30 {

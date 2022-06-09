@@ -25,14 +25,14 @@ export default function SearchSection({
 
   async function handleSubmit(e) {
     e.preventDefault();
-    const topicInput = e.target[0];
+    // const topicInput = e.target[0];
 
     const news = await getNewsData(topic);
 
     if (news.Response === "False") return;
     else {
       updateCurrentNews(news);
-      addTopicToHistory(topicInput);
+      addTopicToHistory(topic);
       console.log(news);
       // topicInput.value = "";
     }
@@ -40,11 +40,11 @@ export default function SearchSection({
 
   return (
     <div className="search-section text-centered tbmargin-30">
-      <form className="input-form" onSubmit={handleSubmit}>
+      <form className="input-form" onSubmit={(e) => handleSubmit(e)}>
         <input
           type="text"
           placeholder="News Topic Here"
-          onChange={updateTopic}
+          onChange={(e) => updateTopic(e)}
         ></input>
         <input type="submit" value="Search"></input>
       </form>

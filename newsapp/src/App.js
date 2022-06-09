@@ -9,7 +9,11 @@ import ResultSection from "./ResultSection";
 
 function App() {
   const [currentNews, setCurrentNews] = useState();
-  const [topics, setTopics] = useState([]);
+  const [topics, setTopics] = useState([
+    "Tiger Woods",
+    "Harry Potter",
+    "Elon Musk",
+  ]);
 
   function addTopicToHistory(newTopic) {
     const duplicates = topics.find((topic) => topic === newTopic);
@@ -39,6 +43,7 @@ function App() {
         />
         <HistorySection
           topics={topics}
+          updateCurrentNews={updateCurrentNews}
           removeTopicFromHistory={removeTopicFromHistory}
         />
         {currentNews && <ResultSection news={currentNews} />}

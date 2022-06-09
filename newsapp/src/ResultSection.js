@@ -10,14 +10,14 @@ export default function ResultSection({ news }) {
                   {index + 1 === 10 ? "10" : "0" + (index + 1)}
                 </h1>
                 <h2>
-                  <span className="result-title underline">Title</span>:{" "}
+                  <span className="result-title underline">TITLE</span>:{" "}
                   {block.title}
                 </h2>
                 <h3 className="margin-right-40 top-margin-20">
                   {block.content}
                 </h3>
                 <a
-                  className="remove-deco text-theme-color learn-more-button"
+                  className="learn-more-button"
                   href={block.url}
                   target="_blank"
                   rel="noreferrer"
