@@ -169,6 +169,19 @@ h6 {
   align-items: center;
 }
 
+.top-menu-btn {
+  text-decoration: none;
+}
+
+.top-menu-btn:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.top-menu-btn:visited {
+  color: black;
+}
+
 form {
   display: flex;
   justify-content: center;
@@ -341,10 +354,10 @@ input[type="submit"] {
 
   .result-block {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-around;
     /* align-items: center; */
     flex-direction: row-reverse;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .result-img-container img {
@@ -352,6 +365,7 @@ input[type="submit"] {
   }
 
   .result-text-container {
+    max-width: 450px;
     width: 50%;
   }
 
