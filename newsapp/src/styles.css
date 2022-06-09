@@ -137,6 +137,11 @@ body {
   font-family: "Hellix";
 }
 
+.constrain {
+  max-width: 500px;
+  margin: auto;
+}
+
 h1 {
   font-size: 30px;
 }
@@ -180,6 +185,14 @@ input[type="submit"] {
   font-family: Hellix;
   font-weight: 700;
   color: white;
+}
+
+.result-section-container {
+  margin: 45px 0;
+}
+
+.result-section-container img {
+  width: 100%;
 }
 
 /* Reuseable Items */
