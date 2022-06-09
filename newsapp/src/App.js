@@ -16,6 +16,12 @@ function App() {
   ]);
 
   function addTopicToHistory(newTopic) {
+    //---------------------Note----------------------//
+    //The duplicate checking is an extra function.
+    //I tried to make both of the string in .find to be lower case in the duplicate checking
+    //but not success yet. The reason is that newTopic is not String type.
+    //String() have been used to convert it to be string but the checking have error.
+    //-----------------Note End---------------------//
     const duplicates = topics.find((topic) => topic === newTopic);
 
     if (duplicates) return;
