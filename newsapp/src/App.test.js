@@ -8,7 +8,7 @@ test("Check News App Logo", () => {
 });
 
 //------------------Note---------------------//
-//Be careful not to run this test too often since
+//Be careful not to run this test too many times since
 //there is a query limit of 100 request per day in gnew.io.
 //-------------------------------------------//
 test("Check Showing Number Index in Result", async () => {
