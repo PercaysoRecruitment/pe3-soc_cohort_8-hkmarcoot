@@ -11,18 +11,18 @@
 
 ## Outcome
 
-1. -[X] It is mobile responsive.
-   It has mobile & desktop version, and I have tested them in my phone and pc. For desktop version, there is addition top-menu on top right corner, so it provides more information and looks more like a website when it is opened in pc.
-2. -[X] It has search area.
-   A search bar with search button is created. It is responsive to the width of the browser.
-3. -[X] It contains search history.
-   It will record what the user had typed in the search bar, and show them in little tags under the search bar. (Problems need to be fixed: User needs to press the tag two times to let the app search the same topic again.)
-4. -[X] It display title, content, url, and image.
-   After looking into the data I fetch from gnew.io, I decided to only include title, content, url, and image into the website, so it looks more clear and tidy.
-5. -[X] It has unit tests.
-   I made 12 unit tests for the website. Please be careful that do not run the test too many times since there is query limit of 100 request per day in gnew.io.
-6. -[X] CSS Styling.
-   The title, content, url, and image are well structured so it looks nice for users using phone or pc.
+:white_check_mark: It is mobile responsive.<br/>
+It has mobile & desktop version, and I have tested them in my phone and pc. For desktop version, there is addition top-menu on top right corner, so it provides more information and looks more like a website when it is opened in pc.
+:white_check_mark: It has search area.<br/>
+A search bar with search button is created. It is responsive to the width of the browser.
+:white_check_mark: It contains search history.<br/>
+It will record what the user had typed in the search bar, and show them in little tags under the search bar. (Problems need to be fixed: User needs to press the tag two times to let the app search the same topic again.)
+:white_check_mark: It display title, content, url, and image.<br/>
+After looking into the data I fetch from gnew.io, I decided to only include title, content, url, and image into the website, so it looks more clean and tidy.
+:white_check_mark: It has unit tests.<br/>
+I made 12 unit tests for the website. Please be careful that do not run the test too many times since there is query limit of 100 request per day in gnew.io.
+:white_check_mark: CSS Styling.<br/>
+The title, content, url, and image are well structured so it looks nice for users using phone or pc.
 
 ### ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Original Description ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
