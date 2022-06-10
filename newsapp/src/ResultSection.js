@@ -1,6 +1,6 @@
 export default function ResultSection({ news }) {
   return (
-    <div className="result-section">
+    <div className="result-section" data-testid="result-section-testing">
       <div className="result-container">
         {news.articles.map((block, index) => {
           return (
@@ -10,7 +10,10 @@ export default function ResultSection({ news }) {
                   {index + 1 === 10 ? "10" : "0" + (index + 1)}
                 </h1>
                 <h2 className="result-title">{block.title}</h2>
-                <h3 className="margin-left-15 margin-right-40 top-margin-20">
+                <h3
+                  className="margin-left-15 margin-right-40 top-margin-20"
+                  data-testid="news-content-testing"
+                >
                   {block.content}
                 </h3>
                 <a

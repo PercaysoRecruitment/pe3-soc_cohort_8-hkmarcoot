@@ -17,7 +17,7 @@ export default function HistorySection({
   updateCurrentNews,
   removeTopicFromHistory,
 }) {
-  console.log(topics);
+  //console.log(topics);
 
   const [topic, setTopic] = useState("");
   //---------------------Note----------------------//
@@ -52,7 +52,7 @@ export default function HistorySection({
   }
 
   return (
-    <div className="history-section">
+    <div className="history-section" data-testid="history-section-testing">
       <div className="history-block-container">
         {topics.map((block, index) => {
           return (

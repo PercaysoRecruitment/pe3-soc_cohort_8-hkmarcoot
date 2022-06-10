@@ -39,7 +39,10 @@ export default function SearchSection({
   }
 
   return (
-    <div className="search-section text-centered tbmargin-30">
+    <div
+      className="search-section text-centered tbmargin-30"
+      data-testid="search-section-testing"
+    >
       <form className="input-form" onSubmit={(e) => handleSubmit(e)}>
         <input
           type="text"
