@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Percayso Programming Exercise 3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Planning
 
-## Available Scripts
+1. It is mobile responsive
+2. It has search area
+3. It contains search history
+4. It displays title, text (description & content), url, image, date, source
+5. It has unit tests
+6. CSS Styling
 
-In the project directory, you can run:
+## Outcome
 
-### `npm start`
+The website: https://newsapp-marco-tsang.netlify.app <br/><br/>
+:white_check_mark: It is mobile responsive.<br/>
+It has mobile & desktop version, and I have tested them in my phone and pc. For desktop version, there is addition top-menu on top right corner, so it provides more information and looks more like a website when it is opened in pc.<br/><br/>
+:white_check_mark: It has search area.<br/>
+A search bar with search button is created. It is responsive to the width of the browser.<br/><br/>
+:white_check_mark: It contains search history.<br/>
+It will record what the user had typed in the search bar, and show them in little tags under the search bar. (Problem needs to be fixed: User needs to press the tag two times to let the app search the same topic again.)<br/><br/>
+:white_check_mark: It displays title, content, url, and image.<br/>
+After looking into the data I fetch from gnew.io, I decided to only include title, content, url, and image into the website, so it looks more clean and tidy.<br/><br/>
+:white_check_mark: It has unit tests.<br/>
+I made 12 unit tests for the website. Please be careful that do not run the test too many times since there is query limit of 100 request per day in gnew.io.<br/><br/>
+:white_check_mark: CSS Styling.<br/>
+The title, content, url, and image are well structured so it looks nice for users using phone or pc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Original Description ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Brief
 
-### `npm test`
+Create a website that gets news from the GNews api:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    https://gnews.io/?ref=apilist.fun
 
-### `npm run build`
+Your website must:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Include a search area
+2. Include a results area
+3. Include tests
+4. Be hosted on a publicly accessible URL, so we can see it working
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You are free to choose:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. How to style all aspects of the page.
+2. What language and framework to use.
 
-### `npm run eject`
+We are looking to understand your approach to solving this problem as much as the actual technical solution. Add comments to your code to help us understand your thinking.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Googling syntax is allowed, googling solutions is not.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Submitting your solution
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please commit your solution within the time frame given to you, even if your solution is not complete. We will be interested in seeing how you approached the problem.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Extra credit
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you're in the mood for showboating, plese feel free to show us what else you can do. E.g. you could automate tests for your solution.
