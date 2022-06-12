@@ -340,7 +340,10 @@ input[type="submit"] {
 }
 
 .feature-section {
+  background-color: white;
+  border-radius: 15px;
   margin: 0 15px 20px;
+  padding-bottom: 20px;
 }
 
 .feature-section-img {
@@ -355,6 +358,7 @@ input[type="submit"] {
 .feature-header {
   margin-top: 50px;
   margin-bottom: 30px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -421,16 +425,16 @@ input[type="submit"] {
   color: cornflowerblue;
 }
 
-.feature-bdr-blue {
-  border: 5px solid rgb(167, 195, 249);
+.feature-boxsdw-blue {
+  box-shadow: rgba(167, 195, 249, 0.393) 0px 4px 12px;
 }
 
-.feature-bdr-orange {
-  border: 5px solid #fd8177;
+.feature-boxsdw-orange {
+  box-shadow: rgba(253, 129, 119, 0.393) 0px 4px 12px;
 }
 
-.feature-bdr-green {
-  border: 5px solid rgb(158, 238, 158);
+.feature-boxsdw-green {
+  box-shadow: rgba(158, 238, 158, 0.393) 0px 4px 12px;
 }
 /*------------Reusable Items End-----------------*/
 
