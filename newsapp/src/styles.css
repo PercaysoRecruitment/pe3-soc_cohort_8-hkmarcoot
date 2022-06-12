@@ -436,10 +436,11 @@ input[type="submit"] {
 
   .hero-text-inner-container {
     margin-top: 20px;
+    margin-left: 10%;
   }
 
   .hero-paragraph {
-    margin-right: 10px;
+    width: 340px;
   }
 
   .desktop-image {
