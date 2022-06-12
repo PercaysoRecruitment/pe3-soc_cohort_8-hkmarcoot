@@ -426,11 +426,11 @@ input[type="submit"] {
 }
 
 .feature-bg-orange {
-  background-color: rgb(240, 200, 200);
+  background-color: rgb(248, 179, 179);
 }
 
 .feature-bg-green {
-  background-color: rgb(200, 236, 200);
+  background-color: rgb(192, 245, 192);
 }
 /*------------Reusable Items End-----------------*/
 
@@ -540,7 +540,6 @@ input[type="submit"] {
   }
 
   .feature-header {
-    /* margin-top: 30px; */
     padding-top: 30px;
   }
 
