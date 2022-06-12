@@ -3,7 +3,7 @@
 export default function HeroSection() {
   return (
     <div className="hero-section">
-      <div className="hero-section-img"></div>
+      <div className="hero-section-img-mobile"></div>
       <div className="hero-section-text-container top-margin-20">
         <div className="hero-text-inner-container left-right-margin-15px">
           <h2 className=" text-theme-color">A Simple APP</h2>
@@ -16,6 +16,7 @@ export default function HeroSection() {
           </p>
         </div>
       </div>
+      <div className="desktop-image"></div>
     </div>
   );
 }

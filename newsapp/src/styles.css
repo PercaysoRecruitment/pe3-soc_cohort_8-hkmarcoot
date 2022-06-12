@@ -302,7 +302,7 @@ input[type="submit"] {
   margin: 0 15px;
 }
 
-.hero-section-img {
+.hero-section-img-mobile {
   background: url("./news2.png") no-repeat;
   background-position: center;
   background-size: cover;
@@ -319,6 +319,11 @@ input[type="submit"] {
 .hero-paragraph {
   line-height: 28px;
   font-weight: 450;
+}
+
+.desktop-image {
+  /* Hide the desktop image for mobile version */
+  display: none;
 }
 /*------------ Reusable Items ---------------*/
 .text-centered {
@@ -379,6 +384,7 @@ input[type="submit"] {
   .top-menu {
     list-style: none;
     display: flex;
+    /* Fixed width for the top menu */
     width: 300px;
     justify-content: space-between;
     font-weight: 500;
@@ -409,5 +415,42 @@ input[type="submit"] {
   .result-img-outter-container {
     /* This is to control the location of img */
     margin-top: 15px;
+  }
+
+  .hero-section {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+  }
+
+  .hero-section-img-mobile {
+    /* Hide the mobile image for desktop version */
+    display: none;
+  }
+
+  .hero-section-text-container {
+    /* The text container occupies half left */
+    width: 50%;
+    height: 350px;
+  }
+
+  .hero-text-inner-container {
+    margin-top: 20px;
+  }
+
+  .hero-paragraph {
+    margin-right: 10px;
+  }
+
+  .desktop-image {
+    /* Show the desktop image for desktop version */
+    display: block;
+    /* The desktop image occupies half right */
+    width: 50%;
+    background: url("./news2.png");
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+    border-radius: 0 15px 15px 0;
   }
 }
