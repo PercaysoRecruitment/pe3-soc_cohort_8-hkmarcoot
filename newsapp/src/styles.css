@@ -157,6 +157,11 @@ h3 {
   line-height: 25px;
 }
 
+h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
 h6 {
   font-size: 18px;
 }
@@ -333,6 +338,46 @@ input[type="submit"] {
   /* Hide the desktop image for mobile version */
   display: none;
 }
+
+.feature-section {
+  margin: 0 15px;
+}
+
+.feature-section-img {
+  background: url("./webdesign.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 340px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.feature-header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.feature-block-container {
+  margin-top: 50px;
+}
+
+.feature-block {
+  /* background-color: red; */
+  border-radius: 15px;
+  margin: 0 50px 25px;
+  height: auto;
+}
+
+.feature-block-text {
+  display: inline-block;
+  margin: 18px;
+}
+
+.feature-block-text p {
+  margin-top: 5px;
+  line-height: 28px;
+  font-weight: 450;
+}
 /*------------ Reusable Items ---------------*/
 .text-centered {
   /* text-align: center; */
@@ -373,6 +418,18 @@ input[type="submit"] {
 
 .text-theme-color {
   color: cornflowerblue;
+}
+
+.feature-bg-blue {
+  background-color: rgb(167, 195, 249);
+}
+
+.feature-bg-orange {
+  background-color: rgb(240, 200, 200);
+}
+
+.feature-bg-green {
+  background-color: rgb(200, 236, 200);
 }
 /*------------Reusable Items End-----------------*/
 
@@ -466,5 +523,25 @@ input[type="submit"] {
     background-position: center;
     clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
     border-radius: 0 15px 15px 0;
+  }
+
+  .feature-section-img {
+    display: block;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+  }
+  .feature-section {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+  }
+
+  /* .feature-block-container {
+    display: flex;
+    flex-flow: wrap;
+  } */
+  .feature-block {
+    width: 220px;
   }
 }
