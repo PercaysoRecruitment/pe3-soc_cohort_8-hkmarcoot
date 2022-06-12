@@ -421,16 +421,16 @@ input[type="submit"] {
   color: cornflowerblue;
 }
 
-.feature-bg-blue {
-  background-color: rgb(167, 195, 249);
+.feature-bdr-blue {
+  border: 5px solid rgb(167, 195, 249);
 }
 
-.feature-bg-orange {
-  background-color: #fd8177;
+.feature-bdr-orange {
+  border: 5px solid #fd8177;
 }
 
-.feature-bg-green {
-  background-color: rgb(178, 245, 178);
+.feature-bdr-green {
+  border: 5px solid rgb(158, 238, 158);
 }
 /*------------Reusable Items End-----------------*/
 
