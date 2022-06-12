@@ -411,8 +411,13 @@ input[type="submit"] {
     margin-bottom: 60px;
   }
 
+  .result-img-container {
+    margin-left: 10px;
+  }
+
   .result-img-container img {
     width: 400px;
+    border-radius: 15px;
   }
 
   .result-text-container {
