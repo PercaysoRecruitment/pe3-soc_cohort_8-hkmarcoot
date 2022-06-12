@@ -167,7 +167,8 @@ h6 {
 
 .top-bar {
   height: 80px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(127, 196, 236, 0.16) 0px 3px 6px,
+    rgba(127, 196, 236, 0.23) 0px 3px 6px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,6 +219,13 @@ input[type="submit"] {
 .search-btn:hover {
   cursor: pointer;
   background-color: rgb(130, 167, 235);
+}
+
+.result-block {
+  padding: 10px 0 15px;
+  border-radius: 15px;
+  box-shadow: rgba(127, 196, 236, 0.393) 0px 4px 12px;
+  margin-bottom: 30px;
 }
 
 .result-text-container {
