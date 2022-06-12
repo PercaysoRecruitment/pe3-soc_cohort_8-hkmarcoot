@@ -6,6 +6,7 @@ import TopBar from "./TopBar";
 import SearchSection from "./SearchSection";
 import HistorySection from "./HistorySection";
 import ResultSection from "./ResultSection";
+import HeroSection from "./HeroSection";
 
 function App() {
   const [currentNews, setCurrentNews] = useState();
@@ -54,6 +55,7 @@ function App() {
             removeTopicFromHistory={removeTopicFromHistory}
           />
           {currentNews && <ResultSection news={currentNews} />}
+          {currentNews ? "" : <HeroSection />}
         </div>
       </div>
     </div>
