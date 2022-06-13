@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-import "./styles.css";
+import "../../styles.css";
 
-import TopBar from "./TopBar";
-import SearchSection from "./SearchSection";
-import HistorySection from "./HistorySection";
-import ResultSection from "./ResultSection";
-import HeroSection from "./HeroSection";
-import FeatureSection from "./FeatureSection";
-import FooterSection from "./FooterSection";
+import TopBar from "../TopBar/TopBar";
+import SearchSection from "../SearchSection/SearchSection";
+import HistorySection from "../HistorySection/HistorySection";
+import ResultSection from "../ResultSection/ResultSection";
+import HeroSection from "../HeroSection/HeroSection";
+import FeatureSection from "../FeatureSection/FeatureSection";
+import FooterSection from "../FooterSection/FooterSection";
 
 function App() {
   const [currentNews, setCurrentNews] = useState();
