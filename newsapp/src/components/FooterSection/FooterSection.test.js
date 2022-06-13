@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import FooterSection from "./FooterSection";
+import FooterSection from "./index.js";
 
 test("Check footer wording", () => {
   render(<FooterSection />);

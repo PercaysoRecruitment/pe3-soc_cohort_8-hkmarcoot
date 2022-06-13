@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import SearchSection from "./SearchSection";
+import SearchSection from "./index.js";
 
 test("Check if Search Section have correct className", () => {
   render(<SearchSection />);

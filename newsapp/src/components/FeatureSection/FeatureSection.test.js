@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import FeatureSection from "./FeatureSection";
+import FeatureSection from "./index.js";
 
 test("Check if all blocks in Feature Section have correct className", () => {
   render(<FeatureSection />);

@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import HistorySection from "./HistorySection";
+import HistorySection from "./index.js";
 
 test("Check if History Section have correct className", () => {
   let topics = ["Tiger Woods", "Harry Potter", "Elon Musk"];

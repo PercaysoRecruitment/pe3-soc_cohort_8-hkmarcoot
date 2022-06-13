@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import TopBar from "./TopBar";
+import TopBar from "./index.js";
 
 test("Check News App Logo", () => {
   render(<TopBar />);

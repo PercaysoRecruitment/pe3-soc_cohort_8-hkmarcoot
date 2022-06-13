@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import ResultSection from "./ResultSection";
+import ResultSection from "./index.js";
 
 test("Check if Result Section news content have correct className", () => {
   let news = {

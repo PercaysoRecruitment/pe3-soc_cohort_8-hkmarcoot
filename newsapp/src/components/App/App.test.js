@@ -1,12 +1,13 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "./index.js";
+import ResultSection from "../ResultSection";
 
 //------------------Note---------------------//
 //Be careful not to run this test too many times since
 //there is a query limit of 100 request per day in gnew.io.
 //-------------------------------------------//
 test("Check Showing Number Index in Result", async () => {
-  render(<App />);
+  render(<App />, <ResultSection />);
 
   fireEvent.click(screen.getByText("Tiger Woods"));
 
