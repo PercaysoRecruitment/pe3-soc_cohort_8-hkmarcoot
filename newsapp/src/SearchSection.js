@@ -26,15 +26,18 @@ export default function SearchSection({
   async function handleSubmit(e) {
     e.preventDefault();
     // const topicInput = e.target[0];
+    if (topic) {
+      const news = await getNewsData(topic);
 
-    const news = await getNewsData(topic);
-
-    if (news.Response === "False") return;
-    else {
-      updateCurrentNews(news);
-      addTopicToHistory(topic);
-      console.log(news);
-      // topicInput.value = "";
+      if (news.Response === "False") return;
+      else {
+        updateCurrentNews(news);
+        addTopicToHistory(topic);
+        console.log(news);
+        // topicInput.value = "";
+      }
+    } else {
+      updateCurrentNews("");
     }
   }
 
