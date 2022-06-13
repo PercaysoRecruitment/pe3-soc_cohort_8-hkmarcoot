@@ -8,6 +8,7 @@ import HistorySection from "./HistorySection";
 import ResultSection from "./ResultSection";
 import HeroSection from "./HeroSection";
 import FeatureSection from "./FeatureSection";
+import FooterSection from "./FooterSection";
 
 function App() {
   const [currentNews, setCurrentNews] = useState();
@@ -64,6 +65,7 @@ function App() {
           {currentNews && <ResultSection news={currentNews} />}
           {currentNews ? "" : <HeroSection />}
           {currentNews ? "" : <FeatureSection />}
+          <FooterSection />
         </div>
       </div>
     </div>

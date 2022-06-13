@@ -383,6 +383,13 @@ input[type="submit"] {
   line-height: 28px;
   font-weight: 450;
 }
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
 /*------------ Reusable Items ---------------*/
 .text-centered {
   /* text-align: center; */

@@ -1,12 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import App from "./App";
 
-test("Check News App Logo", () => {
-  render(<App />);
-  const linkElement = screen.getByText(/News App/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
 //------------------Note---------------------//
 //Be careful not to run this test too many times since
 //there is a query limit of 100 request per day in gnew.io.
