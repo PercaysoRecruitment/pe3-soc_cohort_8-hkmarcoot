@@ -36,7 +36,7 @@ export default function HistorySection({
   //-----------------Note End---------------------//
 
   async function onClick() {
-    console.log(topic);
+    //console.log(topic);
     handleSubmit(topic);
   }
 

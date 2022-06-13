@@ -26,6 +26,7 @@ export default function SearchSection({
   async function handleSubmit(e) {
     e.preventDefault();
     // const topicInput = e.target[0];
+    // Check if the search input is empty or not
     if (topic) {
       const news = await getNewsData(topic);
 
@@ -37,6 +38,7 @@ export default function SearchSection({
         // topicInput.value = "";
       }
     } else {
+      // The website shows hero and feature sections when currentNews is empty.
       updateCurrentNews("");
     }
   }
