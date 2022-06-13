@@ -29,6 +29,10 @@ export default function HistorySection({
   //in useState and run the fetch, but it is not success.
   //
   //I will come back and try when I have enough time before the deadline.
+  //
+  //
+  //UPDATE: The bug is solved by using onMouseOver to update the useState.
+  //
   //-----------------Note End---------------------//
 
   async function onClick() {
