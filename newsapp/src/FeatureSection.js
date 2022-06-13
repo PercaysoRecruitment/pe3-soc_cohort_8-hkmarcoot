@@ -6,7 +6,10 @@ export default function FeatureSection() {
         <div className="feature-section-img"></div>
 
         <div className="feature-block-container">
-          <div className="feature-block feature-boxsdw-blue">
+          <div
+            className="feature-block feature-boxsdw-blue"
+            data-testid="feature-section-bk01-testing"
+          >
             <div className="feature-block-text">
               <h4>Worldwide Scale</h4>
               <p>
@@ -16,7 +19,10 @@ export default function FeatureSection() {
               </p>
             </div>
           </div>
-          <div className="feature-block feature-boxsdw-blue">
+          <div
+            className="feature-block feature-boxsdw-blue"
+            data-testid="feature-section-bk02-testing"
+          >
             <div className="feature-block-text">
               <h4>Response Performance</h4>
               <p>
@@ -26,7 +32,10 @@ export default function FeatureSection() {
               </p>
             </div>
           </div>
-          <div className="feature-block feature-boxsdw-orange">
+          <div
+            className="feature-block feature-boxsdw-orange"
+            data-testid="feature-section-bk03-testing"
+          >
             <div className="feature-block-text">
               <h4>News Articles Data</h4>
               <p>
@@ -37,7 +46,10 @@ export default function FeatureSection() {
               </p>
             </div>
           </div>
-          <div className="feature-block feature-boxsdw-orange">
+          <div
+            className="feature-block feature-boxsdw-orange"
+            data-testid="feature-section-bk04-testing"
+          >
             <div className="feature-block-text">
               <h4>Easy Integration</h4>
               <p>
@@ -47,7 +59,10 @@ export default function FeatureSection() {
               </p>
             </div>
           </div>
-          <div className="feature-block feature-boxsdw-green">
+          <div
+            className="feature-block feature-boxsdw-green"
+            data-testid="feature-section-bk05-testing"
+          >
             <div className="feature-block-text">
               <h4>Live News Articles</h4>
               <p>
@@ -58,7 +73,10 @@ export default function FeatureSection() {
               </p>
             </div>
           </div>
-          <div className="feature-block feature-boxsdw-green">
+          <div
+            className="feature-block feature-boxsdw-green"
+            data-testid="feature-section-bk06-testing"
+          >
             <div className="feature-block-text">
               <h4>Historic Data</h4>
               <p>
