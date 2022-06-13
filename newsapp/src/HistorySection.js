@@ -31,8 +31,7 @@ export default function HistorySection({
   //I will come back and try when I have enough time before the deadline.
   //-----------------Note End---------------------//
 
-  async function onClick(block) {
-    setTopic(block);
+  async function onClick() {
     console.log(topic);
     handleSubmit(topic);
   }
@@ -51,6 +50,10 @@ export default function HistorySection({
     }
   }
 
+  function updateTopic(block) {
+    setTopic(block);
+  }
+
   return (
     <div className="history-section" data-testid="history-section-testing">
       <div className="history-block-container">
@@ -65,10 +68,11 @@ export default function HistorySection({
               </button>
               <div
                 className="history-clickable"
+                onMouseOver={() => updateTopic({ block })}
                 onClick={() => {
                   // setTopic({ block });
                   // handleSubmit(topic);
-                  onClick({ block });
+                  onClick();
                 }}
               >
                 <h6 className="history-item">{block}</h6>
