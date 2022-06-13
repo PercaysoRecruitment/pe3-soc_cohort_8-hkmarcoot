@@ -162,6 +162,11 @@ h4 {
   font-weight: 700;
 }
 
+h5 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
 h6 {
   font-size: 18px;
 }
