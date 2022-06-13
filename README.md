@@ -13,7 +13,7 @@
 
 The website: https://newsapp-marco-tsang.netlify.app <br/><br/>
 :white_check_mark: It is mobile responsive.<br/>
-It has mobile & desktop version, and I have tested them in my phone and pc. For desktop version, there is additional top-menu on top right corner, so it provides more information and looks more accomplished when it is opened in pc.<br/><br/>
+    It has mobile & desktop version, and I have tested them in my phone and pc. For desktop version, there is additional top-menu on top right corner, so it provides more information and looks more accomplished when it is opened in pc.<br/><br/>
 :white_check_mark: It has search area.<br/>
 A search bar with search button is created. It is responsive to the width of the browser.<br/><br/>
 :white_check_mark: It contains search history.<br/>
