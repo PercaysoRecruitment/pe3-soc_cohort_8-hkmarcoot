@@ -23,7 +23,7 @@ The website: https://newsapp-marco-tsang.netlify.app <br/><br/>
 :white_check_mark: It has unit tests.<br/>
        I made 12 unit tests for the website. Please be careful that do not run the test too many times since there is query limit of 100 requests per day in gnew.io.<br/><br/>
 :white_check_mark: CSS Styling.<br/>
-       The title, content, url, and image are well structured so it looks nice for users using phone or pc. Hero section and feature section are in the style to give a great impression for users.
+       The title, content, url, and image are well structured so it looks nice for users using phone or pc. Hero section and feature section are with style to give a great impression for users.
 
 ### ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Original Description ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
