@@ -13,7 +13,7 @@
 
 The website: https://newsapp-marco-tsang.netlify.app <br/><br/>
 :white_check_mark: It is mobile responsive.<br/>
-It has mobile & desktop version, and I have tested them in my phone and pc. For desktop version, there is additional top-menu on top right corner, so it provides more information and looks more like a website when it is opened in pc.<br/><br/>
+It has mobile & desktop version, and I have tested them in my phone and pc. For desktop version, there is additional top-menu on top right corner, so it provides more information and looks more accomplished when it is opened in pc.<br/><br/>
 :white_check_mark: It has search area.<br/>
 A search bar with search button is created. It is responsive to the width of the browser.<br/><br/>
 :white_check_mark: It contains search history.<br/>
@@ -21,7 +21,7 @@ It will record what the user had typed in the search bar, and show them in littl
 :white_check_mark: It displays title, content, url, and image.<br/>
 After looking into the data I fetch from gnew.io, I decided to only include title, content, url, and image into the website, so it looks more clean and tidy.<br/><br/>
 :white_check_mark: It has unit tests.<br/>
-I made 12 unit tests for the website. Please be careful that do not run the test too many times since there is query limit of 100 request per day in gnew.io.<br/><br/>
+I made 12 unit tests for the website. Please be careful that do not run the test too many times since there is query limit of 100 requests per day in gnew.io.<br/><br/>
 :white_check_mark: CSS Styling.<br/>
 The title, content, url, and image are well structured so it looks nice for users using phone or pc.
 
