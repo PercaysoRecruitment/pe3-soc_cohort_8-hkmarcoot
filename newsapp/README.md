@@ -17,7 +17,7 @@ The website: https://newsapp-marco-tsang.netlify.app <br/><br/>
 :white_check_mark: It has search area.<br/>
        A search bar with search button is created. It is responsive to the width of the browser.<br/><br/>
 :white_check_mark: It contains search history.<br/>
-       It will record what the user had submited from the search bar, and show them in little tags below the search bar. (PROBLEM SOLVED: The tags are functioning now. Before that, user needs to press the tag two times to let the app search the same topic again.)<br/><br/>
+       It will record what the user had submitted from the search bar, and show them in little tags below the search bar. (PROBLEM SOLVED: The tags are functioning now. Before that, user needs to press the tag two times to let the app search the same topic again.)<br/><br/>
 :white_check_mark: It displays title, content, url, and image.<br/>
        After looking into the data I fetch from gnew.io, I decided to only include title, content, url, and image into the website, so it looks more clean and tidy.<br/><br/>
 :white_check_mark: It has unit tests.<br/>
