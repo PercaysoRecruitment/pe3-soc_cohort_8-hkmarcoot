@@ -35,7 +35,11 @@ export default function HistorySection({
   //
   //-----------------Note End---------------------//
 
-  async function onClick() {
+  function updateTopic(block) {
+    setTopic(block);
+  }
+
+  function onClick() {
     //console.log(topic);
     handleSubmit(topic);
   }
@@ -52,10 +56,6 @@ export default function HistorySection({
       console.log(news);
       // topicInput.value = "";
     }
-  }
-
-  function updateTopic(block) {
-    setTopic(block);
   }
 
   return (
